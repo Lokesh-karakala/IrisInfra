@@ -1,0 +1,36 @@
+*{
+margin: 0px;
+padding: 0px;
+}
+ul li{
+background-color: black;
+height: 35px;
+width: 120px;
+line-height: 35px;
+float: left;
+display: block;
+border: 1px solid white;
+border-radius: 8px;
+text-align: center;
+}
+ul li a{
+color: white;
+text-decoration: none;
+display: block;
+}
+ul li a:hover{
+background-color: green;
+border-radius: 8px;
+}
+ul li ul li{
+display: none;
+}
+ul li:hover ul li{
+display: block;
+}
+ul ul ul{
+display: none;
+}
+ul ul li:hover ul{
+display: block;
+}
